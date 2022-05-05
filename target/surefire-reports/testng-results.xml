@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="22" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="777218" started-at="2022-05-05T11:25:21 IST" finished-at="2022-05-05T11:38:18 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="777218" started-at="2022-05-05T11:25:21 IST" finished-at="2022-05-05T11:38:18 IST">
+      <class name="TestCases.RegisterTest">
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="suitSetup" is-config="true" duration-ms="22693" started-at="2022-05-05T11:28:42 IST" finished-at="2022-05-05T11:29:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC01_RegistrationWithValidEmailAndValidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC01_RegistrationWithValidEmailAndValidPassword()[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="TC01_RegistrationWithValidEmailAndValidPassword" duration-ms="7146" started-at="2022-05-05T11:29:05 IST" description="Registration with valid email and valid password" finished-at="2022-05-05T11:29:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_RegistrationWithValidEmailAndValidPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="driverClose" is-config="true" duration-ms="631" started-at="2022-05-05T11:29:12 IST" finished-at="2022-05-05T11:29:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC01_RegistrationWithValidEmailAndValidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="suitSetup" is-config="true" duration-ms="10957" started-at="2022-05-05T11:29:13 IST" finished-at="2022-05-05T11:29:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC02_RegistrationWithInvalidEmailAndValidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC02_RegistrationWithInvalidEmailAndValidPassword()[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="TC02_RegistrationWithInvalidEmailAndValidPassword" duration-ms="6793" started-at="2022-05-05T11:29:24 IST" description="Registration with invalid email and valid password" finished-at="2022-05-05T11:29:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_RegistrationWithInvalidEmailAndValidPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="driverClose" is-config="true" duration-ms="618" started-at="2022-05-05T11:29:31 IST" finished-at="2022-05-05T11:29:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC02_RegistrationWithInvalidEmailAndValidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="suitSetup" is-config="true" duration-ms="7625" started-at="2022-05-05T11:29:31 IST" finished-at="2022-05-05T11:29:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC03_RegistrationWithEmptyEmailAndValidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC03_RegistrationWithEmptyEmailAndValidPassword()[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="TC03_RegistrationWithEmptyEmailAndValidPassword" duration-ms="6948" started-at="2022-05-05T11:29:39 IST" description="Registration with empty email and valid password" finished-at="2022-05-05T11:29:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_RegistrationWithEmptyEmailAndValidPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="driverClose" is-config="true" duration-ms="599" started-at="2022-05-05T11:29:46 IST" finished-at="2022-05-05T11:29:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC03_RegistrationWithEmptyEmailAndValidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="suitSetup" is-config="true" duration-ms="9694" started-at="2022-05-05T11:29:46 IST" finished-at="2022-05-05T11:29:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC04_RegistrationWithValidEmailAndEmptyPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC04_RegistrationWithValidEmailAndEmptyPassword()[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="TC04_RegistrationWithValidEmailAndEmptyPassword" duration-ms="6397" started-at="2022-05-05T11:29:56 IST" description="Registration with valid email and empty password" finished-at="2022-05-05T11:30:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_RegistrationWithValidEmailAndEmptyPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="driverClose" is-config="true" duration-ms="593" started-at="2022-05-05T11:30:02 IST" finished-at="2022-05-05T11:30:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC04_RegistrationWithValidEmailAndEmptyPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="suitSetup" is-config="true" duration-ms="39537" started-at="2022-05-05T11:30:03 IST" finished-at="2022-05-05T11:30:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC05_RegistrationWithEmptyEmailAndEmptyPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC05_RegistrationWithEmptyEmailAndEmptyPassword()[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="TC05_RegistrationWithEmptyEmailAndEmptyPassword" duration-ms="6201" started-at="2022-05-05T11:30:43 IST" description="Registration with empty email and empty password" finished-at="2022-05-05T11:30:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_RegistrationWithEmptyEmailAndEmptyPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.RegisterTest@69f63d95]" name="driverClose" is-config="true" duration-ms="602" started-at="2022-05-05T11:30:49 IST" finished-at="2022-05-05T11:30:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.RegisterTest.TC05_RegistrationWithEmptyEmailAndEmptyPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- TestCases.RegisterTest -->
+      <class name="TestCases.LoginTest">
+        <test-method status="PASS" signature="initMethod()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="initMethod" is-config="true" duration-ms="125" started-at="2022-05-05T11:25:21 IST" finished-at="2022-05-05T11:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="suitSetup" is-config="true" duration-ms="20349" started-at="2022-05-05T11:25:21 IST" finished-at="2022-05-05T11:25:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC01_LoginWithValidUsernameAndValidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC01_LoginWithValidUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="TC01_LoginWithValidUsernameAndValidPassword" duration-ms="6592" started-at="2022-05-05T11:25:41 IST" description="Login with valid username and valid password" finished-at="2022-05-05T11:25:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginWithValidUsernameAndValidPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="driverClose" is-config="true" duration-ms="746" started-at="2022-05-05T11:25:48 IST" finished-at="2022-05-05T11:25:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC01_LoginWithValidUsernameAndValidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="suitSetup" is-config="true" duration-ms="13323" started-at="2022-05-05T11:25:49 IST" finished-at="2022-05-05T11:26:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC02_LoginWithInvalidUsernameAndInvalidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC02_LoginWithInvalidUsernameAndInvalidPassword()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="TC02_LoginWithInvalidUsernameAndInvalidPassword" duration-ms="5804" started-at="2022-05-05T11:26:02 IST" description="Login with invalid username and invalid password" finished-at="2022-05-05T11:26:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_LoginWithInvalidUsernameAndInvalidPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="driverClose" is-config="true" duration-ms="624" started-at="2022-05-05T11:26:08 IST" finished-at="2022-05-05T11:26:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC02_LoginWithInvalidUsernameAndInvalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="suitSetup" is-config="true" duration-ms="7800" started-at="2022-05-05T11:26:09 IST" finished-at="2022-05-05T11:26:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC03_LoginWithValidUsernameAndEmptyPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC03_LoginWithValidUsernameAndEmptyPassword()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="TC03_LoginWithValidUsernameAndEmptyPassword" duration-ms="5961" started-at="2022-05-05T11:26:16 IST" description="Login with valid username and empty password" finished-at="2022-05-05T11:26:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_LoginWithValidUsernameAndEmptyPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="driverClose" is-config="true" duration-ms="626" started-at="2022-05-05T11:26:22 IST" finished-at="2022-05-05T11:26:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC03_LoginWithValidUsernameAndEmptyPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="suitSetup" is-config="true" duration-ms="15009" started-at="2022-05-05T11:26:23 IST" finished-at="2022-05-05T11:26:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC04_LoginWithEmptyUsernameAndValidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC04_LoginWithEmptyUsernameAndValidPassword()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="TC04_LoginWithEmptyUsernameAndValidPassword" duration-ms="6168" started-at="2022-05-05T11:26:38 IST" description="Login with empty username and valid password" finished-at="2022-05-05T11:26:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_LoginWithEmptyUsernameAndValidPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="driverClose" is-config="true" duration-ms="625" started-at="2022-05-05T11:26:44 IST" finished-at="2022-05-05T11:26:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC04_LoginWithEmptyUsernameAndValidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="suitSetup" is-config="true" duration-ms="42254" started-at="2022-05-05T11:26:45 IST" finished-at="2022-05-05T11:27:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC05_LoginWithEmptyUsernameAndEmptyPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC05_LoginWithEmptyUsernameAndEmptyPassword()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="TC05_LoginWithEmptyUsernameAndEmptyPassword" duration-ms="7421" started-at="2022-05-05T11:27:27 IST" description="Login with empty username and empty password" finished-at="2022-05-05T11:27:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_LoginWithEmptyUsernameAndEmptyPassword -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="driverClose" is-config="true" duration-ms="610" started-at="2022-05-05T11:27:34 IST" finished-at="2022-05-05T11:27:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC05_LoginWithEmptyUsernameAndEmptyPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="suitSetup" is-config="true" duration-ms="21382" started-at="2022-05-05T11:27:35 IST" finished-at="2022-05-05T11:27:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC06_LoginPasswordShouldBeMasked()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC06_LoginPasswordShouldBeMasked()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="TC06_LoginPasswordShouldBeMasked" duration-ms="3979" started-at="2022-05-05T11:27:56 IST" description="Login password should be masked." finished-at="2022-05-05T11:28:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_LoginPasswordShouldBeMasked -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="driverClose" is-config="true" duration-ms="641" started-at="2022-05-05T11:28:00 IST" finished-at="2022-05-05T11:28:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC06_LoginPasswordShouldBeMasked()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="suitSetup" is-config="true" duration-ms="10103" started-at="2022-05-05T11:28:01 IST" finished-at="2022-05-05T11:28:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC07_LoginHandlesCaseSensitive()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC07_LoginHandlesCaseSensitive()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="TC07_LoginHandlesCaseSensitive" duration-ms="5808" started-at="2022-05-05T11:28:11 IST" description="Login handles case sensitive." finished-at="2022-05-05T11:28:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_LoginHandlesCaseSensitive -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="driverClose" is-config="true" duration-ms="590" started-at="2022-05-05T11:28:17 IST" finished-at="2022-05-05T11:28:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC07_LoginHandlesCaseSensitive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="suitSetup" is-config="true" duration-ms="13142" started-at="2022-05-05T11:28:18 IST" finished-at="2022-05-05T11:28:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC08_LoginAuthentication()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC08_LoginAuthentication()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="TC08_LoginAuthentication" duration-ms="10931" started-at="2022-05-05T11:28:31 IST" description="Login authentication." finished-at="2022-05-05T11:28:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_LoginAuthentication -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@5398edd0]" name="driverClose" is-config="true" duration-ms="629" started-at="2022-05-05T11:28:42 IST" finished-at="2022-05-05T11:28:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.TC08_LoginAuthentication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="sendEmail()[pri:0, instance:TestCases.LoginTest@5398edd0]" name="sendEmail" is-config="true" duration-ms="0" started-at="2022-05-05T11:38:19 IST" finished-at="2022-05-05T11:38:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmail -->
+      </class> <!-- TestCases.LoginTest -->
+      <class name="TestCases.ShopTest">
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="suitSetup" is-config="true" duration-ms="14016" started-at="2022-05-05T11:30:49 IST" finished-at="2022-05-05T11:31:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC01_ShopFilterByPriceFunctionality()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC01_ShopFilterByPriceFunctionality()[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="TC01_ShopFilterByPriceFunctionality" duration-ms="81255" started-at="2022-05-05T11:31:03 IST" description="Shop filter by price functionality." finished-at="2022-05-05T11:32:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_ShopFilterByPriceFunctionality -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="driverClose" is-config="true" duration-ms="624" started-at="2022-05-05T11:32:25 IST" finished-at="2022-05-05T11:32:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC01_ShopFilterByPriceFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="suitSetup" is-config="true" duration-ms="28868" started-at="2022-05-05T11:32:25 IST" finished-at="2022-05-05T11:32:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC02_ShopProductCategoriesFunctionality()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC02_ShopProductCategoriesFunctionality()[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="TC02_ShopProductCategoriesFunctionality" duration-ms="68909" started-at="2022-05-05T11:32:54 IST" description="Shop product categories functionality." finished-at="2022-05-05T11:34:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_ShopProductCategoriesFunctionality -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="driverClose" is-config="true" duration-ms="655" started-at="2022-05-05T11:34:03 IST" finished-at="2022-05-05T11:34:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC02_ShopProductCategoriesFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="suitSetup" is-config="true" duration-ms="8160" started-at="2022-05-05T11:34:04 IST" finished-at="2022-05-05T11:34:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC03_ShopSortOrderByNewnessFunctionality()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC03_ShopSortOrderByNewnessFunctionality()[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="TC03_ShopSortOrderByNewnessFunctionality" duration-ms="66408" started-at="2022-05-05T11:34:12 IST" description="Shop sort order by newness functionality." finished-at="2022-05-05T11:35:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_ShopSortOrderByNewnessFunctionality -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="driverClose" is-config="true" duration-ms="638" started-at="2022-05-05T11:35:18 IST" finished-at="2022-05-05T11:35:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC03_ShopSortOrderByNewnessFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="suitSetup" is-config="true" duration-ms="23353" started-at="2022-05-05T11:35:19 IST" finished-at="2022-05-05T11:35:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC04_ShopSortOrderByPriceLowToHighFunctionality()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC04_ShopSortOrderByPriceLowToHighFunctionality()[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="TC04_ShopSortOrderByPriceLowToHighFunctionality" duration-ms="70124" started-at="2022-05-05T11:35:42 IST" description="Shop sort order by price: low to high functionality." finished-at="2022-05-05T11:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_ShopSortOrderByPriceLowToHighFunctionality -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="driverClose" is-config="true" duration-ms="639" started-at="2022-05-05T11:36:52 IST" finished-at="2022-05-05T11:36:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC04_ShopSortOrderByPriceLowToHighFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="suitSetup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="suitSetup" is-config="true" duration-ms="16627" started-at="2022-05-05T11:36:53 IST" finished-at="2022-05-05T11:37:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC05_ShopSortOrderByPriceHighToLowFunctionality()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="TC05_ShopSortOrderByPriceHighToLowFunctionality()[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="TC05_ShopSortOrderByPriceHighToLowFunctionality" duration-ms="67965" started-at="2022-05-05T11:37:10 IST" description="Shop sort order by price: high to low functionality." finished-at="2022-05-05T11:38:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_ShopSortOrderByPriceHighToLowFunctionality -->
+        <test-method status="PASS" signature="driverClose(java.lang.reflect.Method)[pri:0, instance:TestCases.ShopTest@9cd25ff]" name="driverClose" is-config="true" duration-ms="619" started-at="2022-05-05T11:38:18 IST" finished-at="2022-05-05T11:38:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.ShopTest.TC05_ShopSortOrderByPriceHighToLowFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- TestCases.ShopTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

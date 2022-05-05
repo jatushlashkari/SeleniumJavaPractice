@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 05 11:25:21 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>777 seconds (777218 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.LoginTest.TC03_LoginWithValidUsernameAndEmptyPassword()'><b>TC03_LoginWithValidUsernameAndEmptyPassword</b><br>Test class: TestCases.LoginTest<br>Test method: Login with valid username and empty password</td>
+<td></td>
+<td>5</td>
+<td>TestCases.LoginTest@5398edd0</td></tr>
+<tr>
+<td title='TestCases.ShopTest.TC04_ShopSortOrderByPriceLowToHighFunctionality()'><b>TC04_ShopSortOrderByPriceLowToHighFunctionality</b><br>Test class: TestCases.ShopTest<br>Test method: Shop sort order by price: low to high functionality.</td>
+<td></td>
+<td>70</td>
+<td>TestCases.ShopTest@9cd25ff</td></tr>
+<tr>
+<td title='TestCases.LoginTest.TC07_LoginHandlesCaseSensitive()'><b>TC07_LoginHandlesCaseSensitive</b><br>Test class: TestCases.LoginTest<br>Test method: Login handles case sensitive.</td>
+<td></td>
+<td>5</td>
+<td>TestCases.LoginTest@5398edd0</td></tr>
+<tr>
+<td title='TestCases.LoginTest.TC05_LoginWithEmptyUsernameAndEmptyPassword()'><b>TC05_LoginWithEmptyUsernameAndEmptyPassword</b><br>Test class: TestCases.LoginTest<br>Test method: Login with empty username and empty password</td>
+<td></td>
+<td>7</td>
+<td>TestCases.LoginTest@5398edd0</td></tr>
+<tr>
+<td title='TestCases.RegisterTest.TC02_RegistrationWithInvalidEmailAndValidPassword()'><b>TC02_RegistrationWithInvalidEmailAndValidPassword</b><br>Test class: TestCases.RegisterTest<br>Test method: Registration with invalid email and valid password</td>
+<td></td>
+<td>6</td>
+<td>TestCases.RegisterTest@69f63d95</td></tr>
+<tr>
+<td title='TestCases.ShopTest.TC05_ShopSortOrderByPriceHighToLowFunctionality()'><b>TC05_ShopSortOrderByPriceHighToLowFunctionality</b><br>Test class: TestCases.ShopTest<br>Test method: Shop sort order by price: high to low functionality.</td>
+<td></td>
+<td>67</td>
+<td>TestCases.ShopTest@9cd25ff</td></tr>
+<tr>
+<td title='TestCases.LoginTest.TC01_LoginWithValidUsernameAndValidPassword()'><b>TC01_LoginWithValidUsernameAndValidPassword</b><br>Test class: TestCases.LoginTest<br>Test method: Login with valid username and valid password</td>
+<td></td>
+<td>6</td>
+<td>TestCases.LoginTest@5398edd0</td></tr>
+<tr>
+<td title='TestCases.RegisterTest.TC03_RegistrationWithEmptyEmailAndValidPassword()'><b>TC03_RegistrationWithEmptyEmailAndValidPassword</b><br>Test class: TestCases.RegisterTest<br>Test method: Registration with empty email and valid password</td>
+<td></td>
+<td>6</td>
+<td>TestCases.RegisterTest@69f63d95</td></tr>
+<tr>
+<td title='TestCases.LoginTest.TC02_LoginWithInvalidUsernameAndInvalidPassword()'><b>TC02_LoginWithInvalidUsernameAndInvalidPassword</b><br>Test class: TestCases.LoginTest<br>Test method: Login with invalid username and invalid password</td>
+<td></td>
+<td>5</td>
+<td>TestCases.LoginTest@5398edd0</td></tr>
+<tr>
+<td title='TestCases.LoginTest.TC06_LoginPasswordShouldBeMasked()'><b>TC06_LoginPasswordShouldBeMasked</b><br>Test class: TestCases.LoginTest<br>Test method: Login password should be masked.</td>
+<td></td>
+<td>3</td>
+<td>TestCases.LoginTest@5398edd0</td></tr>
+<tr>
+<td title='TestCases.RegisterTest.TC01_RegistrationWithValidEmailAndValidPassword()'><b>TC01_RegistrationWithValidEmailAndValidPassword</b><br>Test class: TestCases.RegisterTest<br>Test method: Registration with valid email and valid password</td>
+<td></td>
+<td>7</td>
+<td>TestCases.RegisterTest@69f63d95</td></tr>
+<tr>
+<td title='TestCases.LoginTest.TC04_LoginWithEmptyUsernameAndValidPassword()'><b>TC04_LoginWithEmptyUsernameAndValidPassword</b><br>Test class: TestCases.LoginTest<br>Test method: Login with empty username and valid password</td>
+<td></td>
+<td>6</td>
+<td>TestCases.LoginTest@5398edd0</td></tr>
+<tr>
+<td title='TestCases.RegisterTest.TC05_RegistrationWithEmptyEmailAndEmptyPassword()'><b>TC05_RegistrationWithEmptyEmailAndEmptyPassword</b><br>Test class: TestCases.RegisterTest<br>Test method: Registration with empty email and empty password</td>
+<td></td>
+<td>6</td>
+<td>TestCases.RegisterTest@69f63d95</td></tr>
+<tr>
+<td title='TestCases.LoginTest.TC08_LoginAuthentication()'><b>TC08_LoginAuthentication</b><br>Test class: TestCases.LoginTest<br>Test method: Login authentication.</td>
+<td></td>
+<td>10</td>
+<td>TestCases.LoginTest@5398edd0</td></tr>
+<tr>
+<td title='TestCases.ShopTest.TC03_ShopSortOrderByNewnessFunctionality()'><b>TC03_ShopSortOrderByNewnessFunctionality</b><br>Test class: TestCases.ShopTest<br>Test method: Shop sort order by newness functionality.</td>
+<td></td>
+<td>66</td>
+<td>TestCases.ShopTest@9cd25ff</td></tr>
+<tr>
+<td title='TestCases.RegisterTest.TC04_RegistrationWithValidEmailAndEmptyPassword()'><b>TC04_RegistrationWithValidEmailAndEmptyPassword</b><br>Test class: TestCases.RegisterTest<br>Test method: Registration with valid email and empty password</td>
+<td></td>
+<td>6</td>
+<td>TestCases.RegisterTest@69f63d95</td></tr>
+<tr>
+<td title='TestCases.ShopTest.TC02_ShopProductCategoriesFunctionality()'><b>TC02_ShopProductCategoriesFunctionality</b><br>Test class: TestCases.ShopTest<br>Test method: Shop product categories functionality.</td>
+<td></td>
+<td>68</td>
+<td>TestCases.ShopTest@9cd25ff</td></tr>
+<tr>
+<td title='TestCases.ShopTest.TC01_ShopFilterByPriceFunctionality()'><b>TC01_ShopFilterByPriceFunctionality</b><br>Test class: TestCases.ShopTest<br>Test method: Shop filter by price functionality.</td>
+<td></td>
+<td>81</td>
+<td>TestCases.ShopTest@9cd25ff</td></tr>
+</table><p>
+</body>
+</html>
